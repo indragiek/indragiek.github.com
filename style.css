@@ -59,10 +59,11 @@ body {
 	width: 60px;
     height: 60px;
     position: absolute;
-    margin-top: 8px;
-    margin-left: 8px;
+    margin-top: 4px;
+    margin-left: 12px;
     text-decoration: none;
     padding: 5px 5px 5px 5px;
+    -webkit-transform: rotate(-20deg);
 }
 
 #twitter:hover {
@@ -78,10 +79,11 @@ body {
 	width: 60px;
     height: 60px;
     position: absolute;
-    margin-top: 8px;
-    margin-left: 8px;
+    margin-top: 4px;
+    margin-left: 12px;
     text-decoration: none;
     padding: 5px 5px 5px 5px;
+    -webkit-transform: rotate(-20deg);
 }
 
 #github {
@@ -248,21 +250,6 @@ body {
 	margin-top: 8px;
 	width: 400px;
 	line-height: 30px;
-}
-
-#cheddar-client-title {
-	color: #c3c3c3;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 14px;
-	margin-top: 6px;
-}
-
-#cheddar-client {
-	color: #303649;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 16px;
-	font-weight: bold;
-	margin-top: 4px;
 }
 
 /* Octopus */
