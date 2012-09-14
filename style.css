@@ -252,6 +252,21 @@ body {
 	line-height: 30px;
 }
 
+#cheddar-client-title {
+	color: #c3c3c3;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 14px;
+	margin-top: 6px;
+}
+
+#cheddar-client {
+	color: #303649;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 4px;
+}
+
 /* Octopus */
 
 #octopus {
