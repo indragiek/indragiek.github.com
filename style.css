@@ -25,16 +25,13 @@ body {
 
 #header-name {
 	font-size: 36px;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-weight: bold;
 	color: #303648;
 }
 
 #header-description {
 	font-size: 24px;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	color: #626570;
-	text-align: left;
 	margin-bottom: 20px;
 	margin-top: 15px;
 }
@@ -201,15 +198,9 @@ body {
 }
 
 
-/* Projects - Cheddar */
+/* Projects */
 
-#cheddar {
-	background-image: url('images/cheddar.png');
-	width: 600px; height: 450px;
-	margin-top: 100px;
-}
-
-#cheddar-info {
+#project-info {
 	text-align: left;
 	position: absolute;
 	width: 500px;
@@ -217,54 +208,56 @@ body {
 	margin-top: -300px;
 }
 
-#cheddar-project-title {
+#project-header {
 	color: #c3c3c3;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 14px;
 	margin-top: -120px;
 }
 
-#cheddar-title a {
+#project-title a {
 	color: #303649;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 24px;
 	font-weight: bold;
 	margin-top: 4px;
 	text-decoration: none;
 }
 
-#cheddar-title a:hover {
+#project-title a:hover {
 	color: #636b83;
 }
-#cheddar-description-title {
+#description-header {
 	color: #c3c3c3;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 14px;
 	margin-top: 8px;
 }
 
-#cheddar-description {
+#project-description {
 	color: #666973;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 16px;
 	margin-top: 8px;
 	width: 400px;
 	line-height: 30px;
 }
 
-#cheddar-client-title {
+#client-header {
 	color: #c3c3c3;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 14px;
 	margin-top: 6px;
 }
 
-#cheddar-client {
+#client {
 	color: #303649;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 	margin-top: 4px;
+}
+
+/* Cheddar */
+
+#cheddar {
+	background-image: url('images/cheddar.png');
+	width: 600px; height: 450px;
+	margin-top: 100px;
 }
 
 /* Octopus */
@@ -275,64 +268,6 @@ body {
 	margin-top: 100px;
 }
 
-#octopus-info {
-	text-align: left;
-	position: absolute;
-	width: 500px;
-	margin-left: 645px;
-	margin-top: -300px;
-}
-
-#octopus-project-title {
-	color: #c3c3c3;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 14px;
-	margin-top: -120px;
-}
-
-#octopus-title a {
-	color: #303649;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 24px;
-	font-weight: bold;
-	margin-top: 4px;
-	text-decoration: none;
-}
-
-#octopus-title a:hover {
-	color: #636b83;
-}
-#octopus-client-title {
-	color: #c3c3c3;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 14px;
-	margin-top: 6px;
-}
-
-#octopus-client {
-	color: #303649;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 16px;
-	font-weight: bold;
-	margin-top: 4px;
-}
-
-#octopus-description-title {
-	color: #c3c3c3;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 14px;
-	margin-top: 12px;
-}
-
-#octopus-description {
-	color: #666973;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 16px;
-	margin-top: 8px;
-	width: 400px;
-	line-height: 30px;
-}
-
 /* Snap */
 
 #snap {
@@ -341,99 +276,12 @@ body {
 	margin-top: 100px;
 }
 
-#snap-info {
-	text-align: left;
-	position: absolute;
-	width: 500px;
-	margin-left: 645px;
-	margin-top: -300px;
-}
-
-#snap-project-title {
-	color: #c3c3c3;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 14px;
-	margin-top: -120px;
-}
-
-#snap-title a {
-	color: #303649;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 24px;
-	font-weight: bold;
-	margin-top: 4px;
-	text-decoration: none;
-}
-
-#snap-title a:hover {
-	color: #636b83;
-}
-#snap-description-title {
-	color: #c3c3c3;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 14px;
-	margin-top: 8px;
-}
-
-#snap-description {
-	color: #666973;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 16px;
-	margin-top: 8px;
-	width: 400px;
-	line-height: 30px;
-}
-
 /* Sonora */
 
 #sonora {
 	background-image: url('images/sonora.png');
 	width: 600px; height: 450px;
 	margin-top: 100px;
-}
-
-#sonora-info {
-	text-align: left;
-	position: absolute;
-	width: 500px;
-	margin-left: 645px;
-	margin-top: -300px;
-}
-
-#sonora-project-title {
-	color: #c3c3c3;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 14px;
-	margin-top: -120px;
-}
-
-#sonora-title a {
-	color: #303649;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 24px;
-	font-weight: bold;
-	margin-top: 4px;
-	text-decoration: none;
-}
-
-#sonora-title a:hover {
-	color: #636b83;
-}
-
-#sonora-description-title {
-	color: #c3c3c3;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 14px;
-	margin-top: 8px;
-}
-
-#sonora-description {
-	color: #666973;
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 16px;
-	margin-top: 8px;
-	width: 400px;
-	line-height: 30px;
 }
 
 /* Footer */
@@ -455,8 +303,6 @@ body {
 }
 
 #copyright {
-	
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 14px;
 	color: #ffffff;
 	margin-top: 43px;
@@ -467,7 +313,6 @@ body {
 }
 
 #email a {
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 	color: #ffffff;
