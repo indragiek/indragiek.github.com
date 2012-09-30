@@ -1,18 +1,25 @@
-body {
+html, body {
 	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 14pt;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	background-color: #ffffff;
+	height: 100%;
+	margin: 0; padding: 0
 }
 
 ::selection 	 	{background: #303649; color: #ffffff;}
 ::-moz-selection 	{background: #303649;}
 
 #page {
-	height: 100%; width: 1100px;
-	padding: 0px 14px 15px;
-    margin: 0 auto;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#content {
+	min-height: 100%;
+	margin-bottom: -100px;
+	position: relative;
 }
 
 /* Name and Description */
@@ -20,7 +27,6 @@ body {
 #header {
 	text-align: left;
 	margin-top: 100px;
-	
 }
 
 #header-name {
@@ -36,185 +42,21 @@ body {
 	margin-top: 15px;
 }
 
-/* Social Links */
-
-#social-links {
-	margin-top: -92px;
-	margin-left: 780px;
-}
-
-#twitter {
-	background: #00aee7;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-
-#twitter i.icon-twitter {
-	font-size: 36px;
-	color: #ffffff;
-	width: 60px;
-    height: 60px;
-    position: absolute;
-    margin-top: 4px;
-    margin-left: 12px;
-    text-decoration: none;
-    padding: 5px 5px 5px 5px;
-    -webkit-transform: rotate(-20deg);
-}
-
-#twitter:hover {
-	background: #ffffff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-
-#twitter i.icon-twitter:hover {
-	font-size: 36px;
-	color: #00aee7;
-	width: 60px;
-    height: 60px;
-    position: absolute;
-    margin-top: 4px;
-    margin-left: 12px;
-    text-decoration: none;
-    padding: 5px 5px 5px 5px;
-    -webkit-transform: rotate(-20deg);
-}
-
-#github {
-	background: #272727;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-left: 70px;
-    margin-top: -60px;
-}
-
-#github i.icon-github {
-	font-size: 36px;
-	color: #ffffff;
-	width: 60px;
-    height: 60px;
-    position: absolute;
-    margin-top: 16px;
-    margin-left: 14px;
-    text-decoration: none;
-}
-
-#github:hover {
-	background: #ffffff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-
-#github i.icon-github:hover {
-	font-size: 36px;
-	color: #272727;
-	width: 60px;
-    height: 60px;
-    position: absolute;
-    margin-top: 16px;
-    margin-left: 14px;
-    text-decoration: none;
-}
-
-#blog {
-	background: #f51c1c;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-left: 140px;
-    margin-top: -60px;
-}
-
-#blog i.icon-book {
-	font-size: 36px;
-	color: #ffffff;
-	width: 60px;
-    height: 60px;
-    position: absolute;
-    margin-top: 16px;
-    margin-left: 15px;
-    text-decoration: none;
-}
-
-#blog:hover {
-	background: #ffffff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-
-#blog i.icon-book:hover {
-	font-size: 36px;
-	color: #f51c1c;
-	width: 60px;
-    height: 60px;
-    position: absolute;
-    margin-top: 16px;
-    margin-left: 15px;
-    text-decoration: none;
-}
-
-#mail {
-	background: #f4ed0f;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-left: 210px;
-    margin-top: -60px;
-}
-
-#mail i.icon-envelope {
-	font-size: 28px;
-	color: #ffffff;
-	width: 60px;
-    height: 60px;
-    position: absolute;
-    margin-top: 19px;
-    margin-left: 17px;
-    text-decoration: none;
-}
-
-#mail:hover {
-	background: #ffffff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-
-#mail i.icon-envelope:hover {
-	font-size: 28px;
-	color: #f4ed0f;
-	width: 60px;
-    height: 60px;
-    position: absolute;
-    margin-top: 19px;
-    margin-left: 17px;
-    text-decoration: none;
-}
-
 
 /* Projects */
 
-#project-info {
-	text-align: left;
-	position: absolute;
-	width: 500px;
-	margin-left: 645px;
-	margin-top: -300px;
+.project-info {
+	float: right;
+	width: 460px;
+	margin-top: 100px;
 }
 
-#project-header {
+.project-header {
 	color: #c3c3c3;
 	font-size: 14px;
-	margin-top: -120px;
 }
 
-#project-title a {
+.project-title a {
 	color: #303649;
 	font-size: 24px;
 	font-weight: bold;
@@ -222,16 +64,17 @@ body {
 	text-decoration: none;
 }
 
-#project-title a:hover {
+.project-title a:hover {
 	color: #636b83;
 }
-#description-header {
+
+.description-header {
 	color: #c3c3c3;
 	font-size: 14px;
 	margin-top: 8px;
 }
 
-#project-description {
+.project-description {
 	color: #666973;
 	font-size: 16px;
 	margin-top: 8px;
@@ -239,94 +82,187 @@ body {
 	line-height: 30px;
 }
 
-#client-header {
+.client-header {
 	color: #c3c3c3;
 	font-size: 14px;
 	margin-top: 6px;
 }
 
-#client {
+.client {
 	color: #303649;
 	font-size: 16px;
 	font-weight: bold;
 	margin-top: 4px;
 }
 
-/* Cheddar */
+/* Projects */
+
+.project-image {
+	width: 600px;
+	margin-top: 100px;
+	float: left;
+}
 
 #cheddar {
 	background-image: url('images/cheddar.png');
-	width: 600px; height: 450px;
-	margin-top: 100px;
+	height: 450px;	
 }
-
-/* Octopus */
 
 #octopus {
 	background-image: url('images/octopus.png');
-	width: 600px; height: 450px;
-	margin-top: 100px;
+	height: 450px;
 }
-
-/* Snap */
 
 #snap {
 	background-image: url('images/snap.png');
-	width: 600px; height: 450px;
-	margin-top: 100px;
+	height: 450px;
 }
-
-/* Sonora */
 
 #sonora {
 	background-image: url('images/sonora.png');
-	width: 600px; height: 450px;
-	margin-top: 100px;
+	height: 450px;
+}
+
+#taskpad {
+	background-image: url('images/taskpad.png');
+	height: 464px;
+}
+
+#logsense {
+	background-image: url('images/logsense.png');
+	height: 600px;
+}
+
+/* Social Links */
+
+#social-links {
+	margin-top: -92px;
+	margin-left: 780px;
+	margin-bottom: 50px;
+}
+
+.social-icon {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 10px;
+}
+
+#twitter {
+	background: #00aee7;
+}
+
+#twitter i.icon-twitter {
+	font-size: 36px;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 14px;
+}
+
+#twitter:hover {
+	background: #ffffff;
+}
+
+#twitter i.icon-twitter:hover {
+	color: #00aee7;
+}
+
+#github {
+	background: #272727;
+}
+
+#github i.icon-github {
+	font-size: 36px;
+	color: #ffffff;
+	padding-top: 16px;
+	padding-left: 14px;
+	text-decoration: none;
+}
+
+#github:hover {
+	background: #ffffff;
+}
+
+#github i.icon-github:hover {
+	color: #272727;
+}
+
+#blog {
+	background: #f51c1c;
+}
+
+#blog i.icon-book {
+	font-size: 36px;
+	color: #ffffff;
+	padding: 15px;
+	text-decoration: none;
+}
+
+#blog:hover {
+	background: #ffffff;
+}
+
+#blog i.icon-book:hover {
+	color: #f51c1c;
+}
+
+#mail {
+	background: #f4ed0f;
+}
+
+#mail i.icon-envelope {
+	font-size: 28px;
+	color: #ffffff;
+	padding-left: 18px;
+	padding-top: 20px;
+	text-decoration: none;
+}
+
+#mail:hover {
+	background: #ffffff;
+}
+
+#mail i.icon-envelope:hover {
+	color: #f4ed0f;
 }
 
 /* Footer */
 
+.clearfooter {
+	height: 100px;
+	clear: both;
+}
+
 #footer {
 	background-color: #303649;
 	height: 100px;
-	margin-top: 2500px;
-	width: 100%;
-	background-position: 0 0;
-    background-repeat: repeat-x;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1;
-    display: block;
-    position: absolute;
-    z-index: 0;
+	position: relative;
 }
 
 #copyright {
 	font-size: 14px;
 	color: #ffffff;
-	margin-top: 43px;
-	margin-top: 155px;
-	position: absolute;
-	text-align: left;
+	line-height: 100px;
+	margin-left: 50px;
+	float: left;
 	z-index: 1;
 }
 
-#email a {
+.email {
 	font-size: 20px;
 	font-weight: bold;
 	color: #ffffff;
-	margin-top: 152px;
-	margin-left: 865px;
-	position: absolute;
-	text-align: right;
-	z-index: 1;
+	float: right;
+	margin-right: 50px;
+	line-height: 100px;
 	text-decoration: none;
+	z-index: 1;
 	-webkit-transition: all .2s;
 	-moz-transition: all .2s;
 }
 
-#email a:hover {
+.email:hover {
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 }
