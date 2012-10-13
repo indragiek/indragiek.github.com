@@ -1,0 +1,73 @@
+body
+{
+	background-image:url('bg.gif');
+	background-repeat:repeat;
+}
+a {
+	text-decoration: none;
+	color:#0081dc;
+}
+
+#fb-like{
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+@font-face {
+	font-family: Adelle;
+	src: url('AdelleBasic_Bold.otf');
+}
+#header {
+	width:577px;
+	height:274px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#header #header-left-column {
+	float:left;
+	}
+#header #header-right-column {
+	float:left;
+	width:301px;
+	margin-top:50px;
+	margin-left:20px;
+	}
+#header-right-column #snap_buy {
+	margin-top:30px;
+	margin-bottom:0px;
+}
+
+#info {
+	width:867px;
+	padding-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#info p {
+	font-family:Adelle;
+	font-size:17px;
+	color:#4b4b4b;
+	text-shadow: 0px 2px white;
+}
+#info #left-column {
+	float: left;
+	width:466px;
+}
+#info #right-column {
+	float:left;
+	width:351px;
+	margin-left:35px;
+}
+
+#foot {
+	padding-top:20px;
+	clear:left;
+	text-align:center;
+}
+
+#foot p {
+	font-family:Adelle;
+	font-size:17px;
+	color:#4b4b4b;
+	text-shadow: 0px 2px white;
+}
