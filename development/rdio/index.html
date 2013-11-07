@@ -9,7 +9,7 @@
     	var authenticated = R.authenticated();
     	if (authenticated == true) {
     		document.write("R.authenticated(): ");
-    		document.write(R.authenticated.toString());
+    		document.write(R.authenticated().toString());
     	} else {
     		R.authenticate({mode: 'redirect'});
     	}
