@@ -184,16 +184,4 @@ a.project-link:hover {
 	.project-icon.snap {
 		background-image: url('../assets/snap-icon@2x.png');
 	}
-	
-	.project-screen.flamingo {
-		background-image: url('../assets/flamingo@2x.png');
-	}
-	
-	.project-screen.sonora {
-		background-image: url('../assets/sonora@2x.png');
-	}
-	
-	.project-screen.snap {
-		background-image: url('../assets/snap@2x.png');
-	}
 }
