@@ -21,7 +21,10 @@ body {
 	padding: 0;
 }
 
-#header {}
+#header {
+	width: 960px;
+	margin: 0 auto; 
+}
 
 #header a {
 	text-decoration: none;
@@ -36,7 +39,6 @@ body {
 	background-image: url('../assets/logo.png');
 	background-size: 23px 51px;
 	background-repeat: no-repeat;
-	margin-left: 100px;
 	float: left;
 	width: 173px;
 	color: #a8a8a8;
@@ -60,7 +62,7 @@ body {
 
 #links {
 	float: right;
-	margin-right: 80px;
+	margin-right: -20px;
 	font-size: 15pt;
 	font-weight: bold;
 	text-align: right;
