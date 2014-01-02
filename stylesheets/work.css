@@ -1,5 +1,5 @@
 html, body {
-	min-width: 1110px;
+	min-width: 960px;
 }
 
 #header-spacer {
@@ -57,22 +57,28 @@ html, body {
 }
 
 .project-container {
-	width: 960px; height: 100%;
+	width: 832px; height: 100%;
 	margin-left: auto; margin-right: auto;
 }
 
 .project-details {
-	width: 480px;
 	color: #666666;
-	padding-top: 38px; padding-bottom: 57px;
+	padding-top: 29px; padding-bottom: 66px;
 }
 
 .project-details.left {
+	width: 480px;
 	float: left;
 }
 
 .project-details.right {
 	float: right;
+	width: 425px;
+	margin-left: 55px;
+}
+
+.project-details.left.wide {
+	width: 500px;
 }
 
 .project-icon {
@@ -94,9 +100,9 @@ html, body {
 }
 
 .project-header {
-	width: 360px;
-	float: right;
+	width: calc(100% - 120px);
 	margin-left: 30px;
+	float: right;
 }
 
 .project-name {
@@ -108,21 +114,24 @@ html, body {
 .project-slogan {
 	font-family: 'HelveticaNeue-Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
 	font-size: 16pt;
+	letter-spacing: -0.5pt;
 }
 
 .project-description {
 	font-family: 'Adobe Garamond Pro', 'adobe-garamond-pro', 'Garamond', serif;
 	font-size: 14pt;
 	line-height: 1.7;
-	margin-top: 18px;
-	margin-bottom: 37px;
-	color: #000;
+	letter-spacing: -0.1pt;
+	margin-top: 24px;
+	margin-bottom: 43px;
+	color: #2e2e2e;
 }
 
 a.project-link {
 	border: 2px solid #666666;
 	border-radius: 8px;
-	padding: 5px 12px;
+	padding-left: 12px; padding-right: 12px;
+	padding-top: 4px; padding-bottom: 6px;
 	text-decoration: none;
 	font-size: 17pt;
 	font-weight: bold;
@@ -137,8 +146,8 @@ a.project-link:hover {
 }
 
 .project-screen {
-	width: 480px; height: 261px;
-	margin-top: 40px;
+	width: 352px; height: 261px; 
+	margin-top: 31px;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -153,6 +162,10 @@ a.project-link:hover {
 	background-position: right;
 }
 
+.project-screen.wide {
+	width: 275px;
+}
+
 .project-screen.flamingo {
 	background-image: url('../assets/flamingo@2x.png');
 }
@@ -163,7 +176,7 @@ a.project-link:hover {
 
 .project-screen.snap {
 	background-image: url('../assets/snap@2x.png');
-	background-position: center;
+	background-position: right;
 }
 
 @media (min--moz-device-pixel-ratio: 1.5),

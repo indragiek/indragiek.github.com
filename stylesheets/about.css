@@ -30,7 +30,8 @@ html, body {
 	font-size: 15pt;
 	font-family: 'Adobe Garamond Pro', 'adobe-garamond-pro', 'Garamond', serif;
 	line-height: 1.7;
-	color: #000;
+	letter-spacing: -0.1pt;
+	color: #2e2e2e;
 }
 
 #about-contact {

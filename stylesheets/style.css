@@ -22,7 +22,7 @@ body {
 }
 
 #header {
-	width: 960px;
+	width: 832px;
 	margin: 0 auto; 
 }
 
@@ -44,13 +44,15 @@ body {
 	color: #a8a8a8;
 }
 
+#logo-text {}
+
 #logo-text a {
+	display: inline-block;
 	font-weight: bold;
 	font-size: 30pt;
 	margin-left: 31px;
 	letter-spacing: -1pt;
-	line-height: 51px;
-	margin-top: -3px;
+	line-height: 44px;
 	cursor: default;
 	color: inherit;
 }
@@ -66,7 +68,8 @@ body {
 	font-size: 15pt;
 	font-weight: bold;
 	text-align: right;
-	color: #a7a7a7
+	color: #a7a7a7;
+	letter-spacing: -0.5pt;
 }
 
 #links ul {
@@ -124,7 +127,8 @@ body {
 }
 
 #copyright {
-	font-size: 9pt;
+	font-family: 'Adobe Garamond Pro', 'adobe-garamond-pro', 'Garamond', serif;
+	font-size: 10pt;
 	text-align: center;
 	margin-top: 30px;
 	color: #9b9b9b;
