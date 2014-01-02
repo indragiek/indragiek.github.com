@@ -131,7 +131,6 @@ a.project-link {
 }
 
 a.project-link:hover {
-	border: 2px solid #acaba8;
 	background: #acaba8;
 	color: #fff;
 }
