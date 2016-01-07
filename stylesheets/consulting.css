@@ -29,5 +29,8 @@ a {
 
 .available {
 	color: #02cc20;
+}
 
+.not-available {
+	color: #fc4556;
 }
