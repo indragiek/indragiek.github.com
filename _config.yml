@@ -21,7 +21,7 @@
 title: Indragie Karunaratne
 email: i@indragie.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://indragie.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://indragie.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: indragie
 github_username:  indragiek
 linkedin_username: indragie
