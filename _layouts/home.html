@@ -11,7 +11,7 @@ title: Indragie Karunaratne
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">{{ page.list_title | default: "posts" }}</h2>
+  <h2 class="post-list-heading main-section">{{ page.list_title | default: "posts" }}</h2>
   <ul class="post-list">
     {%- for post in site.posts limit:2 -%}
     <li>

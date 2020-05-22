@@ -19,6 +19,10 @@ h2 {
     font-weight: 500;
 }
 
+.main-section {
+    margin-top: 30px;
+}
+
 #projects-container {
     display: flex;
     flex-direction: row;
@@ -104,6 +108,13 @@ h2 {
     text-align: center;
 }
 
+#footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #social-container {
     display: flex;
     flex-direction: row;
@@ -115,5 +126,10 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.copyright {
+    font-size: 13px;
+    margin-top: 15px;
 }
