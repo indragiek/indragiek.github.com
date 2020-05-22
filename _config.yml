@@ -25,6 +25,7 @@ url: "http://indragie.com" # the base hostname & protocol for your site, e.g. ht
 twitter_username: indragie
 github_username:  indragiek
 linkedin_username: indragie
+rss: subscribe
 
 # Build settings
 theme: minima
