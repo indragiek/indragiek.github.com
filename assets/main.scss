@@ -10,9 +10,24 @@ $text-color: #333;
 
 @import "minima";
 
+@mixin h2-condensed-spacing {
+    letter-spacing: -1.22px;
+}
+
+h1 {
+    font-weight: 600;
+}
+
 h2 {
     font-weight: 600;
-    letter-spacing: -1.22px;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 600;
 }
 
 .my-name {
@@ -21,6 +36,11 @@ h2 {
 
 .main-section {
     margin-top: 30px;
+    @include h2-condensed-spacing;
+}
+
+.main-section-letter-spacing {
+    @include h2-condensed-spacing;
 }
 
 #projects-container {
@@ -57,6 +77,14 @@ h2 {
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
+}
+
+.post-title {
+    font-size: 32px;
+}
+
+.post-content h1 {
+    font-size: 25.8px;
 }
 
 .post-link {
