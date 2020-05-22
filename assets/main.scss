@@ -1,0 +1,178 @@
+---
+---
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap');
+
+$base-font-family: 'Inter', -apple-system, BlinkMacSystemFont;
+$base-font-size:   16px;
+$base-font-weight: 300;
+$base-line-height: 1.7;
+$text-color: #333;
+
+@import "minima";
+
+@mixin h2-condensed-spacing {
+    letter-spacing: -1.22px;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 600;
+}
+
+.my-name {
+    font-weight: 500;
+}
+
+.main-section {
+    margin-top: 30px;
+    @include h2-condensed-spacing;
+}
+
+.main-section-letter-spacing {
+    @include h2-condensed-spacing;
+}
+
+#about-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#about-avatar {
+    width: 385px;
+    padding-left: 20px;
+    margin-top: 6px;
+}
+
+#projects-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-spacer {
+    width: 40px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-name {
+    font-weight: 500;
+}
+
+.project-title {
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.project-subtitle {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.post-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.post-title {
+    font-size: 32px;
+}
+
+.post-content h1 {
+    font-size: 25.8px;
+}
+
+.post-link {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.post-comment-footer {
+    font-weight: 600;
+}
+
+.more-posts {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.site-header {
+    border: none;
+    margin-top: 20px;
+}
+
+.site-title {
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -2px;
+}
+
+.page-link:link {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: -1.33px;
+    text-transform: lowercase;
+    color: $grey-color;
+}
+
+.page-link:visited {
+    color: $grey-color;
+}
+
+.page-link:hover {
+    color: $grey-color;
+}
+
+.page-link:active {
+    color: $grey-color;
+}
+
+#header-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#social-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.copyright {
+    font-size: 13px;
+    margin-top: 15px;
+}

@@ -1,98 +1,35 @@
-<!DOCTYPE html>
-<html>
+---
+layout: home
+---
+<h2 class="main-section-letter-spacing">about me</h2>
+<div id="about-container">
+    <p>I'm <span class="my-name">Indragie Karunaratne</span>, a software engineer living in the San Francisco Bay Area.
+        I
+        co-founded <a href="https://specto.dev"><strong>Specto</strong></a>, where we're working on building performance
+        monitoring
+        tools for mobile applications. Before this, I worked on mobile infrastructure at Facebook and was an independent
+        developer of iOS and macOS applications.</p>
+    <div id="about-avatar"><img src="/assets/img/avatar.png" alt="Indragie Karunaratne"></div>
+</div>
 
-<head>
-	<title>Indragie Karunaratne</title>
-	<meta charset="UTF-8">
-	<meta name="keywords" content="indragie, indragiek, karunaratne, mac, ios, iphone, ipad, os x, developer, code">
-	<script type="text/javascript" src="//use.typekit.net/vty7gtw.js"></script>
-	<script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
-	<link rel="stylesheet" href="stylesheets/style-min.css">
-	<link rel="stylesheet" href="stylesheets/work-min.css">
-	<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
-</head>
 
-<body>
-	<div id="container">
-		<section id="header" class="clearfix">
-			<div id="logo">
-				<div id="logo-text">
-					<a href="#">indragie</a>
-				</div>
-			</div>
-			<div id="links">
-				<ul>
-					<li><a href="about.html">about</a></li>
-					<li class="active"><a href="#">projects</a></li>
-					<li><a href="http://blog.indragie.com">blog</a></li>
-				</ul>
-			</div>
-		</section>
-	</div>
-	<div id="header-spacer"></div>
-	<section class="project flamingo">
-		<div class="project-container clearfix">
-			<div class="project-details left">
-				<div class="project-icon flamingo"></div>
-				<div class="project-header clearfix">
-					<p class="project-name">Flamingo</p>
-					<p class="project-slogan">Modern instant messaging</p>
-				</div>
-				<div class="clearfix"></div>
-				<p class="project-description">
-					Flamingo is a beautiful instant messaging client for OS X<br /> with support for Google Hangouts,
-					Facebook, and XMPP.
-				</p>
-				<a class="project-link" href="http://flamingo.im">flamingo.im</a>
-			</div>
-			<div class="project-screen right flamingo"></div>
-		</div>
-	</section>
-	<section class="project sonora">
-		<div class="project-container clearfix">
-			<div class="project-details right">
-				<div class="project-icon sonora"></div>
-				<div class="project-header">
-					<p class="project-name">Sonora</p>
-					<p class="project-slogan">Music, plain and simple</p>
-				</div>
-				<div class="clearfix"></div>
-				<p class="project-description">
-					Sonora is an elegant audio player for OS X with a central music queue and support for many audio
-					formats.
-				</p>
-				<a class="project-link" href="https://twitter.com/SonoraApp">twitter.com/SonoraApp</a>
-			</div>
-			<div class="project-screen left sonora"></div>
-		</div>
-	</section>
-	<section class="project snap">
-		<div class="project-container clearfix">
-			<div class="project-details left wide">
-				<div class="project-icon snap"></div>
-				<div class="project-header">
-					<p class="project-name">Snap</p>
-					<p class="project-slogan">Shortcuts made easy</p>
-				</div>
-				<div class="clearfix"></div>
-				<p class="project-description">
-					Snap automatically assigns keyboard shortcuts to apps in the Dock and allows for easy configuration
-					of custom shortcuts.
-				</p>
-				<a class="project-link" href="http://indragie.com/snap">indragie.com/snap</a>
-			</div>
-			<div class="project-screen right wide snap"></div>
-		</div>
-	</section>
-	<section id="footer">
-		<div id="social" class="clearfix">
-			<a href="https://twitter.com/indragie" class="social-icon twitter"></a>
-			<a href="https://github.com/indragiek" class="social-icon github"></a>
-		</div>
-		<p id="copyright">
-			&copy; 2020 <strong>Indragie Karunaratne</strong>. All rights reserved.
-		</p>
-	</section>
-</body>
-
-</html>
+<h2 class="main-section">projects</h2>
+<div id="projects-container">
+    <div class="project-item">
+        <a href="http://flamingo.im"><img src="/assets/img/flamingo.png" alt="Flamingo"></a>
+        <span class="project-title"><span class="project-name">Flamingo</span> — modern instant messaging</span>
+        <span class="project-subtitle">2015</span>
+    </div>
+    <div class="project-spacer"></div>
+    <div class="project-item">
+        <a href="https://github.com/sonoramac/Sonora"><img src="/assets/img/sonora.png" alt="Sonora"></a>
+        <span class="project-title"><span class="project-name">Sonora</span> — music, plain and simple</span>
+        <span class="project-subtitle">2012</span>
+    </div>
+    <div class="project-spacer"></div>
+    <div class="project-item">
+        <a href="/snap"><img src="/assets/img/snap.png" alt="Snap"></a>
+        <span class="project-title"><span class="project-name">Snap</span> — shortcuts made easy</span>
+        <span class="project-subtitle">2011</span>
+    </div>
+</div>
