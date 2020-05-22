@@ -43,6 +43,17 @@ h4 {
     @include h2-condensed-spacing;
 }
 
+#about-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#about-avatar {
+    width: 385px;
+    padding-left: 20px;
+    margin-top: 6px;
+}
+
 #projects-container {
     display: flex;
     flex-direction: row;
